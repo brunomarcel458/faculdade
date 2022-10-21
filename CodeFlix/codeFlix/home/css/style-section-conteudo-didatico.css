@@ -1,0 +1,58 @@
+.container-video-aula{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    border-radius: 15px;
+}
+
+.titulo-de-aula{
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.titulo-de-aula p{
+    color: white;
+}
+
+.passador-de-aula{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+}
+
+.passador-de-aula a{
+    font-size: 30px;
+    font-weight: 600;
+    height: 50px;
+    width: 50px;
+}
+
+.menu-lateral{
+    width: 400px;
+    height: 100%;
+    background-color: rgba(36, 5, 65, 0.356);
+    padding: 15px 30px;
+}
+
+.menu-lateral > a:hover{
+    text-decoration: underline rgb(138, 131, 141);
+}
+
+.lista-de-aulas li{
+    border: 1px solid rgb(48, 48, 42);
+    margin: 10px 0;
+    padding: 2px 5px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.lista-de-aulas li:hover{
+    transition: transform .5s;
+    transform: scale(1.02);
+}
+
+.seta-voltar{
+    font-size: 30px;
+    font-weight: 900;
+}
